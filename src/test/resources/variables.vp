@@ -1,0 +1,61 @@
+<html>
+
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+    </style>
+
+    <body>
+
+        <h1>A simple test of variables</h1>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td>String</td>
+                <td>{string}</td>
+            </tr>
+            <tr>
+                <td>Int</td>
+                <td>{int}</td>
+            </tr>
+            <tr>
+                <td>Bool</td>
+                <td>{boolean}</td>
+            </tr>
+            <tr>
+                <td>List</td>
+                <td>{list}</td>
+            </tr>
+            <tr>
+                <td>Map</td>
+                <td>{listModel}</td>
+            </tr>
+            <tr>
+                <td>List Model</td>
+                <td>{list}</td>
+            </tr>
+            <tr>
+                <td>Map Model</td>
+                <td>{mapModel}</td>
+            </tr>
+        </table>
+
+    </body>
+
+</html>
